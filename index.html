@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Tyson is an software engineer in Portland, Oregon.">
+
+  <title>Tyson Mote</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400&display=swap" rel="stylesheet">
+
+  <style type="text/css" media="all">
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Source Serif Pro", "Palatino", serif;
+      background-color: #ddd;
+    }
+
+    #banner {
+      text-align: center;
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%);
+    }
+
+    @keyframes blink {
+      from {border-color: rgba(0,0,0,1);}
+      to {border-color: rgba(0,0,0,0);}
+    }
+
+    #banner h1 {
+      font-weight: normal;
+      font-size: 2em;
+      border-right: 1px solid #000;
+      padding-right: 0.1em;
+      animation: blink 1.4s steps(2, start) infinite;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="banner">
+    <h1>Tyson Mote.</h1>
+  </div>
+</body>
+
+</html>
+
