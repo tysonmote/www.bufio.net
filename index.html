@@ -7,45 +7,41 @@
 
   <title>Tyson Mote</title>
 
-  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;700&display=swap" rel="stylesheet">
 
   <style type="text/css" media="all">
     body {
-      margin: 0;
-      padding: 0;
+      max-width: 30em;
+      margin: 0 auto;
+      padding: 5em 0;
       font-family: "Source Serif Pro", "Palatino", serif;
-      background-color: #ddd;
+      color: #222;
     }
 
-    #banner {
-      text-align: center;
-      margin: 0;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      margin-right: -50%;
-      transform: translate(-50%, -50%);
+    p {
+      font-size: 16px;
+      line-height: 1.5;
+      margin-bottom: 1em;
     }
 
-    @keyframes blink {
-      from {border-color: rgba(0,0,0,1);}
-      to {border-color: rgba(0,0,0,0);}
-    }
+    a:link, a:visited{color:#000;text-decoration:underline;}
+    a:hover, a:focus, a:active{color:#666;text-decoration:none;}
 
-    #banner h1 {
-      font-weight: normal;
-      font-size: 2em;
-      border-right: 1px solid #000;
-      padding-right: 0.1em;
-      animation: blink 1.4s steps(2, start) infinite;
+    img {
+      width: 100%;
+      margin: 0 auto 1.5em;
     }
   </style>
 </head>
 
 <body>
-  <div id="banner">
-    <h1>Tyson Mote.</h1>
-  </div>
+  <p><img src="./tyson.jpg" alt="Tyson and his son riding on his shoulders."></p>
+
+  <p><strong>Tyson Mote</strong> is a Principal Engineer at <a href="https://segment.com/">Segment</a>. He was born in Montana and he raised and <a href="https://eldoradocountyfair.org/livestock.html">sold pigs at the county fair</a> to buy his <a href="https://everymac.com/systems/apple/ibook/specs/ibook_se.html">first computer</a>, but he’s more of a city person these days. He lives in Portland, Oregon and has a wife and son that he likes very, very much.</p>
+
+  <p>He’d like to visit Iceland someday; it sounds nice.</p>
+
+  <p>You can email him at <a href="mailto:tyson@bufio.net">tyson@bufio.net</a>.</p>
 </body>
 
 </html>
