@@ -23,6 +23,7 @@
       font-size: 16px;
       line-height: 1.5;
       margin-bottom: 1em;
+      margin-top: 0;
     }
 
     a:link, a:visited{color:#000;text-decoration:underline;}
@@ -30,7 +31,18 @@
 
     img {
       width: 100%;
-      margin: 0 auto 1.5em;
+      margin: 0 auto 1em;
+    }
+
+    @media only screen and (max-width: 600px), only screen and (max-height: 600px) {
+      body {
+        max-width: 25em;
+        padding: 1.2em;
+      }
+
+      p {
+        font-size: 14px;
+      }
     }
   </style>
 </head>
@@ -40,7 +52,7 @@
 
   <p><strong>Tyson Mote</strong> is a Principal Engineer at <a href="https://segment.com/">Segment</a>. He was born in Montana and he raised and <a href="https://eldoradocountyfair.org/livestock.html">sold pigs at the county fair</a> to buy his <a href="https://everymac.com/systems/apple/ibook/specs/ibook_se.html">first computer</a>, but he’s more of a city person these days. He lives in Portland, Oregon and has a wife and son that he likes very&nbsp;much.</p>
 
-  <p>He’d like to visit Iceland someday; it sounds nice.</p>
+  <p>He’d like to visit Iceland someday; it sounds&nbsp;nice.</p>
 
   <p>You can email him at <a href="mailto:tyson@bufio.net">tyson@bufio.net</a>.</p>
 </body>
