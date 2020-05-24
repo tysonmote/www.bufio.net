@@ -1,0 +1,47 @@
+@import "normalize", "skeleton";
+
+/* Layout
+ * --------------------------------------------------------------------------*/
+
+html {
+  height: 100%;
+}
+
+.container {
+  max-width: 640px;
+}
+
+body.home {
+  height: 100%;
+  width: 100%;
+  display: table;
+  padding: 1em 0;
+
+  main.page-content {
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle;
+  }
+
+  .container {
+    margin: 0 auto;
+    max-width: 400px;
+  }
+}
+
+/* Typography
+ * --------------------------------------------------------------------------*/
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Source Serif Pro";
+  font-weight: 400;
+  color: #333;
+}
+
+a {
+  color: #333;
+}

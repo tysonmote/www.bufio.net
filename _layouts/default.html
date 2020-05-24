@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  {%- include head.html -%}
+
+  <body class="{{ layout.body_class }}">
+
+    {% unless layout.hide_header %}
+      {%- include header.html -%}
+    {% endunless %}
+
+    <main class="page-content" aria-label="Content">
+      {{ content }}
+    </main>
+
+    {% unless layout.hide_footer %}
+      {%- include footer.html -%}
+    {% endunless %}
+
+  </body>
+
+</html>
