@@ -2,11 +2,10 @@
 layout: home
 ---
 
-<p><img src="/assets/tyson.jpg" alt="Tyson and his son riding on his
-shoulders."></p>
+<img class="u-max-full-width" src="/assets/tyson.jpg" alt="Tyson and his son riding on his shoulders." />
 
-<p><strong>Tyson Mote</strong> is a Principal Engineer at <a href="https://segment.com/">Segment</a>. He was born in Montana and he raised and <a href="https://eldoradocountyfair.org/livestock.html">sold pigs at the county fair</a> to buy his <a href="https://everymac.com/systems/apple/ibook/specs/ibook_se.html">first computer</a>, but he’s more of a city person these days. He lives in Portland, Oregon and has a wife and son that he likes very&nbsp;much.</p>
+**Tyson Mote** is a Principal Engineer at [Segment](https://segment.com/">Segment). He was born in Montana and he raised and [sold pigs at the county fair](https://eldoradocountyfair.org/livestock.html) to buy his [first computer](https://everymac.com/systems/apple/ibook/specs/ibook_se.html), but he's more of a city person these days. He lives in Portland, Oregon and has a wife and son that he likes very much.
 
-<p>He’d like to visit Iceland someday; it sounds&nbsp;nice.</p>
+He'd like to visit Iceland someday; it sounds nice.
 
-<p>You can email him at <a href="mailto:tyson@bufio.net">tyson@bufio.net</a>.</p>
+You can email him at [tyson@bufio.net](mailto:tyson@bufio.net).
